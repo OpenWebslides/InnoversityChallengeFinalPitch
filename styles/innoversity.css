@@ -125,6 +125,8 @@ div.popup {
 	border: 1px solid #DCCDC2;
 	height: 120px;
 	width: 600px;
+	position: relative;
+ 	bottom: -140px;
 }
 .popup p {
 	margin-bottom: 0.5em;
