@@ -118,3 +118,17 @@ a.license img {
   height: 420px;
   width: 800px;
 }
+
+div.popup {
+	background-color: hsla(52, 100%, 49%, 0.38);
+	border-radius: 8px;
+	border: 1px solid #DCCDC2;
+	height: 120px;
+	width: 600px;
+}
+.popup p {
+	margin-bottom: 0.5em;
+        margin-left: auto;
+        margin-right: auto;
+        width: 550px;
+}
