@@ -64,12 +64,13 @@ a.license img {
 }
 
 .person {
-  margin-bottom: 1em;
+  margin-bottom: 1.2em;
+  font-size: 16pt;
 }
 
 .person img {
   border-radius: 50%;
-  height: 4.2em;
+  height: 3em;
   float: left;
   clear: both;
   margin-right: 1em;
