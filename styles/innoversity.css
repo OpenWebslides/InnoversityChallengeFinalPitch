@@ -127,10 +127,17 @@ div.popup {
 	width: 600px;
 	position: relative;
  	bottom: -140px;
+	-webkit-transition: bottom 0.5s; 
+    	transition: bottom 0.5s; 
 }
+div.popup:target {
+bottom:-160px; 
+}
+
 .popup p {
 	margin-bottom: 0.5em;
         margin-left: auto;
         margin-right: auto;
         width: 550px;
 }
+
