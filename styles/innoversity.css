@@ -22,6 +22,11 @@ li li {
   font-size: 0;
 }
 
+p.titlePersons {
+margin-bottom: 0.5em;
+}
+
+
 .title.slide .logo {
   float: right;
   margin: 4em 15px .5em;
