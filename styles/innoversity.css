@@ -131,6 +131,8 @@ div.popup {
 	position: relative;
   background:rgba(251, 186, 0, .9);
   padding: 10px 20px;
+  bottom: -100%;
+  transition: bottom 1s;
 }
 .popup p {
 	margin: 0 0.2em !important;
@@ -149,6 +151,9 @@ ins {
   margin-left: 20px;
   font-style: italic;
 }
+.active div.popup {
+  bottom: 0;
+}
 
 .list .comment {
   display: none;
@@ -165,21 +170,27 @@ ins {
   border-radius:10px;
   width: 500px;
   line-height: 1.2;
-  top: 165px;
-  left: 350px;
+  top: 370px;
+  left: 390px;
+  opacity: 0;
+  transition: opacity 1s;
+}
+.comment.active {
+  opacity: 1;
 }
 
 .comment:after {
   content:"";
   position:absolute;
-  bottom:-15px; /* value = - border-top-width - border-bottom-width */
-  left:50px; /* controls horizontal position */
-  border-width:15px 15px 0; /* vary these values to change the angle of the vertex */
   border-style:solid;
   border-color:#FBBA00 transparent;
-  /* reduce the damage in FF3.0 */
   display:block;
   width:0;
+  top:-15px;
+  left:50px;
+  bottom:auto;
+  left:auto;
+  border-width:0 15px 15px;
 }
 
 .comment img {
