@@ -155,7 +155,7 @@ ins {
   bottom: 0;
 }
 
-.list .comment {
+.list .comment, .list .popup {
   display: none;
 }
 
