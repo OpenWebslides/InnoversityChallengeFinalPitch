@@ -9,4 +9,9 @@ $(function () {
            }
          });
   });
+
+  $('.accept').click(function (event) {
+    event.preventDefault();
+    $('.popup').fadeOut();
+  });
 });

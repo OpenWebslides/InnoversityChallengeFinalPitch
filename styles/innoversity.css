@@ -125,24 +125,29 @@ a.license img {
 
 div.popup {
 	background-color: hsla(52, 100%, 49%, 0.38);
-	border-radius: 8px;
-	border: 1px solid #DCCDC2;
-	height: 120px;
+	border-radius: 20px;
+	border: 1px solid black;
 	width: 600px;
 	position: relative;
- 	bottom: -140px;
-	-webkit-transition: bottom 0.5s; 
-    	transition: bottom 0.5s; 
+  background:rgba(251, 186, 0, .9);
+  padding: 10px 20px;
 }
-div.popup:target {
-bottom:-160px; 
-}
-
 .popup p {
-	margin-bottom: 0.5em;
-        margin-left: auto;
-        margin-right: auto;
-        width: 550px;
+	margin: 0 0.2em !important;
+}
+.popup a {
+  color: black !important;
+  font-weight: bold;
+}
+.popup a:hover {
+  color: #109617 !important;
+}
+ins {
+  color: #109617;
+}
+.suggestion {
+  margin-left: 20px;
+  font-style: italic;
 }
 
 .list .comment {
