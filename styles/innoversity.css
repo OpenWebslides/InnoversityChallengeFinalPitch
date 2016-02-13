@@ -182,3 +182,7 @@ bottom:-160px;
   float: left;
   margin-right: 15px;
 }
+
+p.garcon {
+  text-align: center;
+}
