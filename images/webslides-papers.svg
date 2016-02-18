@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="860px"
+	 height="400px" viewBox="0 0 860 400" enable-background="new 0 0 860 400" xml:space="preserve">
+<g id="Papers">
+	<text transform="matrix(1 0 0 1 35.2886 186.8223)" fill="#575756" font-family="'Arial-ItalicMT'" font-size="24">papers</text>
+	<g>
+			<rect x="35.29" y="30.77" fill="#FFFFFF" stroke="#6F6F6E" stroke-width="2" stroke-miterlimit="10" width="96.61" height="128.44"/>
+		<rect x="44.9" y="52.33" fill="#868686" width="77.1" height="9.4"/>
+		<rect x="44.9" y="68.05" fill="#D9D9D9" width="77.1" height="4.11"/>
+		<rect x="44.9" y="74.72" fill="#D9D9D9" width="77.1" height="4.11"/>
+		<rect x="44.9" y="81.72" fill="#D9D9D9" width="77.1" height="4.11"/>
+		<rect x="44.9" y="88.39" fill="#D9D9D9" width="77.1" height="4.11"/>
+		<rect x="44.9" y="94.99" fill="#D9D9D9" width="77.1" height="4.11"/>
+		<rect x="44.9" y="101.65" fill="#D9D9D9" width="77.1" height="4.11"/>
+		<rect x="44.9" y="108.65" fill="#D9D9D9" width="77.1" height="4.11"/>
+		<rect x="44.9" y="115.32" fill="#D9D9D9" width="77.1" height="4.11"/>
+		<rect x="44.9" y="121.82" fill="#D9D9D9" width="77.1" height="4.11"/>
+		<rect x="44.9" y="128.49" fill="#D9D9D9" width="77.1" height="4.11"/>
+		<rect x="44.9" y="135.49" fill="#D9D9D9" width="77.1" height="4.11"/>
+		<rect x="44.9" y="142.15" fill="#D9D9D9" width="77.1" height="4.11"/>
+		<g>
+			<rect x="77.21" y="44.03" fill="#575756" width="12.43" height="0.53"/>
+			<rect x="77.21" y="37.96" fill="#575756" width="12.43" height="0.47"/>
+			<rect x="74.91" y="45.83" fill="#575756" width="17.08" height="0.85"/>
+			<rect x="80.09" y="47.91" fill="#575756" width="6.71" height="0.79"/>
+			<polygon fill="#575756" points="83.45,35.33 77.86,37.52 89.01,37.52 			"/>
+			<rect x="78.67" y="39" fill="#575756" width="0.77" height="4.58"/>
+			<rect x="80.42" y="39" fill="#575756" width="0.77" height="4.58"/>
+			<rect x="82.17" y="39" fill="#575756" width="0.77" height="4.58"/>
+			<rect x="83.93" y="39" fill="#575756" width="0.77" height="4.58"/>
+			<rect x="85.68" y="39" fill="#575756" width="0.77" height="4.58"/>
+			<rect x="87.44" y="39" fill="#575756" width="0.77" height="4.58"/>
+		</g>
+	</g>
+	<g>
+		
+			<rect x="105.31" y="10.5" fill="#FFFFFF" stroke="#6F6F6E" stroke-width="2" stroke-miterlimit="10" width="96.61" height="128.44"/>
+		<rect x="114.92" y="32.07" fill="#868686" width="77.1" height="9.4"/>
+		<rect x="114.92" y="47.79" fill="#D9D9D9" width="77.1" height="4.11"/>
+		<rect x="114.92" y="54.46" fill="#D9D9D9" width="77.1" height="4.11"/>
+		<rect x="114.92" y="61.46" fill="#D9D9D9" width="77.1" height="4.11"/>
+		<rect x="114.92" y="68.12" fill="#D9D9D9" width="77.1" height="4.11"/>
+		<rect x="114.92" y="74.72" fill="#D9D9D9" width="77.1" height="4.11"/>
+		<rect x="114.92" y="81.39" fill="#D9D9D9" width="77.1" height="4.11"/>
+		<rect x="114.92" y="88.39" fill="#D9D9D9" width="77.1" height="4.11"/>
+		<rect x="114.92" y="95.06" fill="#D9D9D9" width="77.1" height="4.11"/>
+		<rect x="114.92" y="101.55" fill="#D9D9D9" width="77.1" height="4.11"/>
+		<rect x="114.92" y="108.22" fill="#D9D9D9" width="77.1" height="4.11"/>
+		<rect x="114.92" y="115.22" fill="#D9D9D9" width="77.1" height="4.11"/>
+		<rect x="114.92" y="121.89" fill="#D9D9D9" width="77.1" height="4.11"/>
+		<g>
+			<rect x="147.23" y="23.76" fill="#575756" width="12.43" height="0.53"/>
+			<rect x="147.23" y="17.69" fill="#575756" width="12.43" height="0.47"/>
+			<rect x="144.93" y="25.57" fill="#575756" width="17.08" height="0.85"/>
+			<rect x="150.11" y="27.65" fill="#575756" width="6.71" height="0.79"/>
+			<polygon fill="#575756" points="153.47,15.06 147.88,17.25 159.02,17.25 			"/>
+			<rect x="148.68" y="18.74" fill="#575756" width="0.77" height="4.58"/>
+			<rect x="150.44" y="18.74" fill="#575756" width="0.77" height="4.58"/>
+			<rect x="152.19" y="18.74" fill="#575756" width="0.77" height="4.58"/>
+			<rect x="153.94" y="18.74" fill="#575756" width="0.77" height="4.58"/>
+			<rect x="155.7" y="18.74" fill="#575756" width="0.77" height="4.58"/>
+			<rect x="157.45" y="18.74" fill="#575756" width="0.77" height="4.58"/>
+		</g>
+	</g>
+</g>
+</svg>
+
