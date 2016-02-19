@@ -42,45 +42,129 @@
 
   <div class="slide" id="html">
     <h2>Maak slides zoals websites</h2>
-    <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="860px"
-       height="400px" viewBox="0 0 860 400" enable-background="new 0 0 860 400" xml:space="preserve">
+    <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="860" height="410">
+      <style>
+        path, line {
+          fill: none;
+          stroke: #1D70B7;
+          stroke-width: 4;
+        }
+        polygon {
+          fill: #1D70B7;
+        }
+        .paper {
+          transform-origin: right bottom;
+        }
+        #mouse {
+          animation: rotate 2.1s ease-in-out infinite alternate;
+        }
+        @keyframes rotate {
+          from { transform: rotate(-1deg); }
+          to   { transform: rotate( 1deg); }
+        }
 
-    <style>
-      path, line {
-        fill: none;
-        stroke: #1D70B7;
-        stroke-width: 2;
-      }
-      polygon {
-        fill: #1D70B7;
-      }
-    </style>
+        .next.active {
+          animation: pop .5s;
+          transform-origin: 200px 400px;
+        }
+        @keyframes pop {
+          0%   { transform: scale(1.05) rotate(-10deg); }
+          50%  { transform: scale(0.95); }
+          100% { transform: scale(1.00); }
+        }
 
-      <image width="860" height="400" xlink:href="images/webslides-tweets.svg" />
-      <image width="860" height="400" xlink:href="images/webslides-papers.svg" />
-      <image width="860" height="400" xlink:href="images/webslides-courses.svg" />
-      <image width="860" height="400" xlink:href="images/webslides-slide.svg" />
+        .play {
+          animation: pulse 1s linear infinite;
+          transform-origin: center;
+        }
+        @keyframes pulse {
+          0%   { transform: scale(1.05); }
+          50%  { transform: scale(0.95); }
+          100% { transform: scale(1.00); }
+        }
+      </style>
 
-      <g>
-        <path d="M528.16,330.87c41.91,54.99,220.18,2.8,238.53-139.67"/>
-        <polygon points="521.25,338.03 521.63,318.09 538.71,328.38"/>
+      <text transform="translate(339 81)"  style="font: 40px Arial; font-weight: bold; font-style: italic; letter-spacing: 1px;">webslides</text>
+
+      <g id="slide">
+        <g>
+          <g>
+            <rect x="283.67" y="94.68" fill="#FFFFFF" width="312.43" height="196.02"/>
+            <g class="next">
+              <rect x="343.38" y="114.55" fill="#FBBA00" width="251.72" height="16.77"/>
+              <rect x="284.67" y="114.55" fill="#1A4175" width="29.88" height="16.77"/>
+              <g>
+                <rect x="320.15" y="129.79" fill="#1A4175" width="19.1" height="0.81"/>
+                <rect x="320.15" y="120.47" fill="#1A4175" width="19.1" height="0.73"/>
+                <rect x="316.61" y="132.56" fill="#1A4175" width="26.24" height="1.3"/>
+                <rect x="324.57" y="135.76" fill="#1A4175" width="10.32" height="1.22"/>
+                <polygon fill="#1A4175" points="329.73,116.42 321.14,119.78 338.27,119.78"/>
+                <rect x="322.38" y="122.07" fill="#1A4175" width="1.18" height="7.03"/>
+                <rect x="325.07" y="122.07" fill="#1A4175" width="1.18" height="7.03"/>
+                <rect x="327.77" y="122.07" fill="#1A4175" width="1.18" height="7.03"/>
+                <rect x="330.46" y="122.07" fill="#1A4175" width="1.18" height="7.03"/>
+                <rect x="333.16" y="122.07" fill="#1A4175" width="1.18" height="7.03"/>
+                <rect x="335.85" y="122.07" fill="#1A4175" width="1.18" height="7.03"/>
+              </g>
+              <text transform="matrix(1 0 0 1 574.001 128.3286)" style="font: 14px Arial;">24</text>
+            </g>
+            <rect stroke="black" stroke-width="3" x="283.67" y="94.68" fill="none" width="312.43" height="196.02"/>
+          </g>
+          <rect x="309.61" y="151.05" fill="#D9D9D9" width="263.75" height="13.95"/>
+          <rect x="366.62" y="216.03" fill="#D9D9D9" width="40.8" height="13.95"/>
+          <rect x="309.61" y="186.52" fill="#D9D9D9" width="97.81" height="13.95"/>
+          <rect x="309.61" y="250.2" fill="#D9D9D9" width="97.81" height="13.95"/>
+          <g class="next">
+            <rect x="422.65" y="186" width="150.71" height="78"/>
+            <g class="play">
+              <path style="fill: #BD1622; stroke: none" d="M521.58,230.57c0,6.25-4.58,11.31-10.22,11.31h-26.71c-5.64,0-10.22-5.06-10.22-11.31v-10.28
+                c0-6.25,4.58-11.31,10.22-11.31h26.71c5.64,0,10.22,5.06,10.22,11.31V227.57z"/>
+              <polygon style="fill: white" points="493.35,218.76 503.64,224.71 493.35,230.65"/>
+            </g>
+          </g>
+          <g class="next">
+            <rect x="309.61" y="215.76" fill="#1D70B7" width="48.91" height="14.47"/>
+            <rect x="309.61" y="233.76" fill="#1D70B7" stroke="#1D70B7" width="48.91" height="2.11"/>
+          </g>
+        </g>
       </g>
-      <g>
-        <path d="M88.12,375.12c155.52,12.32,257.8-9.84,280.23-41.62"/>
-        <polygon points="375.92,339.63 372.95,319.91 357.36,332.34"/>
-      </g>
-      <g>
-        <path d="M170.24,153.31c18.36,32.37,92.12,80.13,142.1,81.51"/>
-        <polygon points="162.26,159.16 166.04,139.58 181.11,152.64"/>
+
+      <g class="next">
+        <g>
+          <path d="M170.24,153.31c18.36,32.37,92.12,80.13,142.1,81.51"/>
+          <polygon points="162.26,159.16 166.04,139.58 181.11,152.64"/>
+        </g>
+
+        <g id="mouse">
+          <polygon style="fill: white; stroke: black" stroke-width="2" points="343.75,223.53 347.69,245.22 354.69,239.13 368.79,255.94 373,252.28 358.6,235.73 365.21,229.97 		"/>
+          <line style="stroke: #BD1622" x1="353.5"  y1="219.28" x2="356.87" y2="209.5"/>
+          <line style="stroke: #BD1622" x1="334.34" y1="219.28" x2="324.57" y2="216.03"/>
+          <line style="stroke: #BD1622" x1="333.16" y1="227.65" x2="326.25" y2="227.65"/>
+          <line style="stroke: #BD1622" x1="337.03" y1="238.88" x2="331.05" y2="242"/>
+          <line style="stroke: #BD1622" x1="342.85" y1="214.39" x2="342.85" y2="205.98"/>
+        </g>
+
+        <image width="860" height="400" xlink:href="images/webslides-papers.svg" />
       </g>
 
-      <g id="mouse">
-        <polygon style="fill: white; stroke: black" stroke-width="2" points="343.75,223.53 347.69,245.22 354.69,239.13 368.79,255.94 373,252.28 358.6,235.73 365.21,229.97 		"/>
-        <line style="stroke: #BD1622" x1="353.5"  y1="219.28" x2="356.87" y2="209.5"/>
-        <line style="stroke: #BD1622" x1="334.34" y1="219.28" x2="324.57" y2="216.03"/>
-        <line style="stroke: #BD1622" x1="333.16" y1="227.65" x2="326.25" y2="227.65"/>
-        <line style="stroke: #BD1622" x1="337.03" y1="238.88" x2="331.05" y2="242"/>
-        <line style="stroke: #BD1622" x1="342.85" y1="214.39" x2="342.85" y2="205.98"/>
+      <g class="next">
+        <image width="860" height="400" xlink:href="images/webslides-courses.svg" />
+        <g>
+          <path d="M88.12,375.12c155.52,12.32,257.8-9.84,280.23-41.62"/>
+          <polygon points="375.92,339.63 372.95,319.91 357.36,332.34"/>
+        </g>
+      </g>
+
+      <g class="next">
+        <image width="860" height="400" xlink:href="images/webslides-tweets.svg" />
+        <g>
+          <path d="M528.16,330.87c41.91,54.99,220.18,2.8,238.53-139.67"/>
+          <polygon points="521.25,338.03 521.63,318.09 538.71,328.38"/>
+        </g>
+      </g>
+
+      <g class="next">
+        <text x="282" y="313" style="font: 20px Arial;" fill="#1D70B7">www.ugent.be/slides/innoversity#24</text>
       </g>
     </svg>
   </div>

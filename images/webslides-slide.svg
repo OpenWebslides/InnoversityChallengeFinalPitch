@@ -3,11 +3,6 @@
 <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="860px"
 	 height="400px" viewBox="0 0 860 400" enable-background="new 0 0 860 400" xml:space="preserve">
 <g id="Slide">
-	<g id="g10" transform="matrix(1.3333 0 0 -1.3333 0 150.67)">
-	</g>
-	<g id="g12" transform="scale(.1)">
-	</g>
-	<text transform="matrix(1 0 0 1 287.668 313.3359)" fill="#1D70B7" font-family="'ArialMT'" font-size="19.1466">www.ugent.be/slides/innoversity#24</text>
 	<g>
 		<g>
 			<g>
@@ -22,7 +17,7 @@
 				<rect x="320.15" y="120.47" fill="#1A4175" width="19.1" height="0.73"/>
 				<rect x="316.61" y="132.56" fill="#1A4175" width="26.24" height="1.3"/>
 				<rect x="324.57" y="135.76" fill="#1A4175" width="10.32" height="1.22"/>
-				<polygon fill="#1A4175" points="329.73,116.42 321.14,119.78 338.27,119.78 				"/>
+				<polygon fill="#1A4175" points="329.73,116.42 321.14,119.78 338.27,119.78"/>
 				<rect x="322.38" y="122.07" fill="#1A4175" width="1.18" height="7.03"/>
 				<rect x="325.07" y="122.07" fill="#1A4175" width="1.18" height="7.03"/>
 				<rect x="327.77" y="122.07" fill="#1A4175" width="1.18" height="7.03"/>
@@ -43,8 +38,8 @@
 				c0-6.25,4.58-11.31,10.22-11.31h26.71c5.64,0,10.22,5.06,10.22,11.31V227.57z"/>
 			<polygon fill="#FFFFFF" points="493.35,215.76 503.64,221.71 493.35,227.65 			"/>
 		</g>
-		<text transform="matrix(1 0 0 1 339.252 80.7988)" font-family="'Arial-BoldItalicMT'" font-size="40" letter-spacing="1">webslides</text>
-		<text transform="matrix(1 0 0 1 574.001 128.3286)" font-family="'ArialMT'" font-size="14">24</text>
+		<text transform="matrix(1 0 0 1 339.252 80.7988)"  style="font: 40px Arial; font-weight: bold; font-style: italic; letter-spacing: 1px;">webslides</text>
+		<text transform="matrix(1 0 0 1 574.001 128.3286)" style="font: 14px Arial;">24</text>
 	</g>
 </g>
 </svg>
