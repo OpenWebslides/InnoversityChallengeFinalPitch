@@ -27,7 +27,7 @@ li li {
 }
 
 p.titlePersons {
-margin-bottom: 0.5em;
+  margin-bottom: 0.5em;
 }
 
 
@@ -126,13 +126,13 @@ a.license img {
 div.popup {
 	background-color: hsla(52, 100%, 49%, 0.38);
 	border-radius: 20px;
-	border: 1px solid black;
 	width: 600px;
 	position: relative;
   background:rgba(251, 186, 0, .9);
   padding: 10px 20px;
   bottom: -100%;
   transition: bottom 1s;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, .5);
 }
 .popup p {
 	margin: 0 0.2em !important;
@@ -172,11 +172,16 @@ ins {
   line-height: 1.2;
   top: 370px;
   left: 390px;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, .5);
+
   opacity: 0;
-  transition: opacity 1s;
+  transform: scale(.5);
+  transform-origin: center center;
+  transition: all cubic-bezier(1,2.5,.85,.65) .25s;
 }
 .comment.active {
   opacity: 1;
+  transform: scale(1);
 }
 
 .comment:after {
@@ -186,15 +191,14 @@ ins {
   border-color:#FBBA00 transparent;
   display:block;
   width:0;
-  top:-15px;
-  left:50px;
+  top:-14px;
+  left:150px;
   bottom:auto;
-  left:auto;
   border-width:0 15px 15px;
 }
 
 .comment img {
-  height: 100px;
+  height: 110px;
   float: left;
   margin-right: 15px;
 }
