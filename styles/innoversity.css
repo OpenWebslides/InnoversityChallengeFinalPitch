@@ -206,3 +206,17 @@ ins {
 p.garcon {
   text-align: center;
 }
+
+#netwerk figure {
+  overflow: hidden;
+  margin-top: -20px;
+}
+#netwerk img {
+  height: 1040px;
+  margin: -300px 0 0 -550px;
+  transition: height ease-in 3s 2s, margin ease-in 3s 2s;
+}
+#netwerk.active img {
+  height: 440px;
+  margin: 0 10px;
+}
