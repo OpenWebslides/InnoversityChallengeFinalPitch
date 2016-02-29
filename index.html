@@ -170,9 +170,20 @@
   </div>
 
   <div class="slide" id="mogelijkheden">
-    <iframe style="width: 600px; height: 380px; margin: 20px 0 0 130px;" src="https://www.youtube.com/embed/1dos0xzDLVA?version=3&amp;rel=0&amp;controls=2" frameborder="0" allowfullscreen></iframe>
+    <style>
+      video { display: none; }
+      @supports (-webkit-appearance:none) {
+        video { display: block; }
+        iframe.video { display: none; }
+      }
+    </style>
+    <video controls style="height: 430px; margin: 10px 0 0 115px;">
+      <source src="images/peter-hinssen.mp4#t=0.4,8.5" type="video/mp4">
+    </video>
+    <iframe class="video" style="width: 600px; height: 380px; margin: 20px 0 0 130px;" src="https://www.youtube.com/embed/1dos0xzDLVA?version=3&amp;rel=0&amp;controls=2" frameborder="0" allowfullscreen></iframe>
     <p style="text-align: center;">
-      Bekijk het <a href="https://www.youtube.com/watch?v=1ggh8QAtxxM">volledige interview</a> met Peter Hinssen.
+      Bekijk het <a href="https://www.youtube.com/watch?v=1ggh8QAtxxM">volledige interview</a>
+      met <a href="http://www.peterhinssen.com/">Peter Hinssen</a>.
     </p>
   </div>
 
@@ -354,5 +365,8 @@
   <script src="http://platform.twitter.com/widgets.js"></script>
   <script src="scripts/jquery.js"></script>
   <script src="scripts/edit.js"></script>
+  <script>
+    $('video').click(function () { this.paused ? this.play() : this.pause(); });
+  </script>
 </body>
 </html>
