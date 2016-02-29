@@ -31,7 +31,7 @@
       <a href="https://be.linkedin.com/in/estherdeloof">Esther De Loof</a>,
       <a href="https://www.researchgate.net/profile/Bram_De_Jaegher">Bram De Jaegher</a>,
     </p>
-    <p>     
+    <p>
       <a href="https://www.linkedin.com/in/myrtle-verhaeven-a590b487">Myrtle Verhaeven</a>,
       <a href="#">Raphaël Caluwé</a>
       <a href="https://creativecommons.org/licenses/by/4.0/" class="license">
@@ -41,7 +41,7 @@
   </div>
 
   <div class="slide" id="webslides">
-    <h2>Maak slides zoals websites</h2>
+    <h2>Slides met de kracht van websites</h2>
     <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="860" height="410">
       <style>
         #webslides path, #webslides line {
@@ -170,8 +170,8 @@
   </div>
 
   <div class="slide" id="open">
-    <h2>Bewerk slides zoals open-source</h2>
-    <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="860" height="410">
+    <h2>Co-creatie via open-source</h2>
+    <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="930" height="440">
       <g>
         <line fill="none" stroke="#FBBA00" stroke-width="12" stroke-miterlimit="10" x1="3.67" y1="200" x2="832.17" y2="200"/>
         <polygon fill="#FBBA00" points="826.91,217.85 858,199.9 826.91,181.95 				"/>
@@ -206,6 +206,17 @@
           50%  { transform: scale(2.0); }
           100% { transform: scale(1.0); }
         }
+        #update.active image {
+          animation: touchandgo 2s .5s;
+          transform-origin: center right;
+        }
+        @keyframes touchandgo {
+          0%   { transform: scale(1.0); }
+          5%   { transform: scale(1.2); }
+          10%  { transform: scale(1.0); }
+          80%  { transform: scale(0.95); }
+          100% { transform: translate(320px); }
+        }
       </style>
 
       <g class="next" id="acceptatie">
@@ -227,12 +238,13 @@
           c2.84,0,5.99,3.85,9.45,11.55l1.71,3.87c6.23-10.5,5.72-11.24,15.49-21.15C412.19,327.12,421.73,319.51,431.05,314.21z"/>
       </g>
 
-      <g class="next">
+      <g class="next" id="update">
         <g>
           <path fill="none" stroke="#1A4175" stroke-width="4" stroke-miterlimit="10" d="M593,328.18c16.86-5.35,41.35-15.77,73.25-58.63" />
           <polygon fill="#1A4175" points="661.74,295.86 657.92,294.66 665.74,269.66 643.68,283.79 641.52,280.42 672.84,260.36 				"/>
         </g>
         <image width="860" height="400" xlink:href="images/open-source-update.svg" />
+        <text x="688" y="282" style="font-family: Arial; font-size: 24px; font-weight: bold">update!</text>
       </g>
     </svg>
   </div>

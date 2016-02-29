@@ -1,26 +1,19 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
 <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="860" height="400">
-
-<style>
-#highlights line {
-  transform-origin: right bottom;
-}
-@supports (-webkit-appearance:none) {
-  #highlights line {
-    animation: rotate 1.5s linear infinite alternate;
+  <style>
+  @supports (-webkit-appearance:none) {
+    #slide {
+      transform-origin: center center;
+      animation: rotate 2.5s ease-in-out infinite alternate;
+    }
   }
-  #highlights line:nth-child(even) {
-    animation: rotate 1.5s linear infinite alternate-reverse;
+  @keyframes rotate {
+    from { transform: rotate(-2deg); }
+    to   { transform: rotate( 2deg); }
   }
-}
-@keyframes rotate {
-  from { transform: rotate(-10deg); }
-  to   { transform: rotate( 10deg); }
-}
-</style>
-
-	<g>
+  </style>
+	<g id="slide">
 		<g>
 			<rect x="646.88" y="146.29" fill="#FFFFFF" width="169.27" height="106.17"/>
 			<path fill="#1D1D1B" d="M815.64,146.79v105.17H647.38V146.79H815.64 M816.64,145.79h-1H647.38h-1v1v105.17v1h1h168.27h1v-1
@@ -41,25 +34,24 @@
 			<rect x="673.66" y="161.09" fill="#1A4175" width="0.64" height="3.81"/>
 			<rect x="675.12" y="161.09" fill="#1A4175" width="0.64" height="3.81"/>
 		</g>
+    <rect x="697.28" y="205.26" fill="#C6C6C5" width="39.79" height="7.01"/>
+    <rect x="655.06" y="205.26" fill="#C6C6C5" width="32.83" height="7.01"/>
+    <rect x="654.75" y="192.61" fill="#C6C6C5" width="23.72" height="7.01"/>
+    <rect x="684.48" y="192.61" fill="#C6C6C5" width="49.41" height="7.01"/>
+    <rect x="655.06" y="175.37" fill="#C6C6C5" width="18.56" height="7.92"/>
+    <rect x="682.89" y="175.37" fill="#C6C6C5" width="22.12" height="7.92"/>
+    <rect x="711.53" y="175.37" fill="#C6C6C5" width="96.75" height="7.92"/>
+    <rect x="654.75" y="218.14" fill="#C6C6C5" width="23.72" height="7.01"/>
+    <rect x="684.48" y="218.14" fill="#C6C6C5" width="49.41" height="7.01"/>
+    <rect x="697.28" y="231.33" fill="#C6C6C5" width="39.79" height="7.01"/>
+    <rect x="655.06" y="231.33" fill="#C6C6C5" width="32.83" height="7.01"/>
+    <g>
+      <rect x="744.23" y="196.3" width="62.13" height="33.94"/>
+      <path fill="#BD1622" d="M785.01,215.16c0,2.58-1.89,4.66-4.21,4.66h-11.01c-2.33,0-4.21-2.09-4.21-4.66v-4.24
+        c0-2.58,1.89-4.66,4.21-4.66h11.01c2.33,0,4.21,2.09,4.21,4.66V215.16z"/>
+      <polygon fill="#FFFFFF" points="773.38,210.29 777.62,212.74 773.38,215.19 		"/>
+    </g>
 	</g>
-	<rect x="697.28" y="205.26" fill="#C6C6C5" width="39.79" height="7.01"/>
-	<rect x="655.06" y="205.26" fill="#C6C6C5" width="32.83" height="7.01"/>
-	<rect x="654.75" y="192.61" fill="#C6C6C5" width="23.72" height="7.01"/>
-	<rect x="684.48" y="192.61" fill="#C6C6C5" width="49.41" height="7.01"/>
-	<rect x="655.06" y="175.37" fill="#C6C6C5" width="18.56" height="7.92"/>
-	<rect x="682.89" y="175.37" fill="#C6C6C5" width="22.12" height="7.92"/>
-	<rect x="711.53" y="175.37" fill="#C6C6C5" width="96.75" height="7.92"/>
-	<rect x="654.75" y="218.14" fill="#C6C6C5" width="23.72" height="7.01"/>
-	<rect x="684.48" y="218.14" fill="#C6C6C5" width="49.41" height="7.01"/>
-	<rect x="697.28" y="231.33" fill="#C6C6C5" width="39.79" height="7.01"/>
-	<rect x="655.06" y="231.33" fill="#C6C6C5" width="32.83" height="7.01"/>
-	<g>
-		<rect x="744.23" y="196.3" width="62.13" height="33.94"/>
-		<path fill="#BD1622" d="M785.01,215.16c0,2.58-1.89,4.66-4.21,4.66h-11.01c-2.33,0-4.21-2.09-4.21-4.66v-4.24
-			c0-2.58,1.89-4.66,4.21-4.66h11.01c2.33,0,4.21,2.09,4.21,4.66V215.16z"/>
-		<polygon fill="#FFFFFF" points="773.38,210.29 777.62,212.74 773.38,215.19 		"/>
-	</g>
-	<text transform="matrix(1 0 0 1 687.8828 282.0488)" style="font-family: Arial; font-size: 24px; font-weight: bold">update!</text>
 	<g id="highlights">
 		<line fill="none" stroke="#BD1622" stroke-width="5" stroke-miterlimit="10" x1="651.17" y1="118.71" x2="663.57" y2="135.81"/>
 		<line fill="none" stroke="#BD1622" stroke-width="5" stroke-miterlimit="10" x1="689.12" y1="110.47" x2="693.95" y2="129.36"/>

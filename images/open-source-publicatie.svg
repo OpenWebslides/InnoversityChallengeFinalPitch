@@ -1,7 +1,19 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
 <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="860" height="400">
-	<g>
+  <style>
+  @supports (-webkit-appearance:none) {
+    #slide {
+      transform-origin: center center;
+      animation: rotate 2.5s ease-in-out infinite alternate;
+    }
+  }
+  @keyframes rotate {
+    from { transform: rotate(-2deg); }
+    to   { transform: rotate( 2deg); }
+  }
+  </style>
+	<g id="slide">
 		<g>
 			<rect x="139.25" y="250.68" fill="#FFFFFF" width="169.27" height="106.17"/>
 			<path fill="#1D1D1B" d="M308.01,251.18v105.17H139.75V251.18H308.01 M309.01,250.18h-1H139.75h-1v1v105.17v1h1h168.27h1v-1
@@ -22,15 +34,15 @@
 			<rect x="166.03" y="265.48" fill="#1A4175" width="0.64" height="3.81"/>
 			<rect x="167.49" y="265.48" fill="#1A4175" width="0.64" height="3.81"/>
 		</g>
+    <rect x="148.39" y="281.1" fill="#C6C6C5" width="150.98" height="9.9"/>
+    <rect x="148.39" y="299.14" fill="#C6C6C5" width="23.72" height="7.01"/>
+    <rect x="178.13" y="299.14" fill="#C6C6C5" width="49.42" height="7.01"/>
+    <rect x="190.92" y="312.33" fill="#C6C6C5" width="39.79" height="7.01"/>
+    <rect x="148.7" y="312.33" fill="#C6C6C5" width="32.82" height="7.01"/>
+    <rect x="148.39" y="324.67" fill="#C6C6C5" width="23.72" height="7.01"/>
+    <rect x="178.13" y="324.67" fill="#C6C6C5" width="49.42" height="7.01"/>
+    <rect x="190.92" y="337.86" fill="#C6C6C5" width="39.79" height="7.01"/>
+    <rect x="148.7" y="337.86" fill="#C6C6C5" width="32.82" height="7.01"/>
 	</g>
-	<rect x="148.39" y="281.1" fill="#C6C6C5" width="150.98" height="9.9"/>
-	<rect x="148.39" y="299.14" fill="#C6C6C5" width="23.72" height="7.01"/>
-	<rect x="178.13" y="299.14" fill="#C6C6C5" width="49.42" height="7.01"/>
-	<rect x="190.92" y="312.33" fill="#C6C6C5" width="39.79" height="7.01"/>
-	<rect x="148.7" y="312.33" fill="#C6C6C5" width="32.82" height="7.01"/>
-	<rect x="148.39" y="324.67" fill="#C6C6C5" width="23.72" height="7.01"/>
-	<rect x="178.13" y="324.67" fill="#C6C6C5" width="49.42" height="7.01"/>
-	<rect x="190.92" y="337.86" fill="#C6C6C5" width="39.79" height="7.01"/>
-	<rect x="148.7" y="337.86" fill="#C6C6C5" width="32.82" height="7.01"/>
 	<text transform="matrix(1 0 0 1 162.2876 389.667)" style="font-family: Arial; font-size: 24px; font-weight: bold">publicatie</text>
 </svg>
