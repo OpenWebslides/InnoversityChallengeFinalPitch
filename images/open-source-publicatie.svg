@@ -1,18 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
 <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="860" height="400">
-  <style>
-  @supports (-webkit-appearance:none) {
-    #slide {
-      transform-origin: center center;
-      animation: rotate 2.5s ease-in-out infinite alternate;
-    }
-  }
-  @keyframes rotate {
-    from { transform: rotate(-2deg); }
-    to   { transform: rotate( 2deg); }
-  }
-  </style>
 	<g id="slide">
 		<g>
 			<rect x="139.25" y="250.68" fill="#FFFFFF" width="169.27" height="106.17"/>
@@ -44,5 +32,5 @@
     <rect x="190.92" y="337.86" fill="#C6C6C5" width="39.79" height="7.01"/>
     <rect x="148.7" y="337.86" fill="#C6C6C5" width="32.82" height="7.01"/>
 	</g>
-	<text transform="matrix(1 0 0 1 162.2876 389.667)" style="font-family: Arial; font-size: 24px; font-weight: bold">publicatie</text>
+	<text transform="matrix(1 0 0 1 137 389)" style="font-family: Arial; font-size: 24px; font-weight: bold">publieke versie</text>
 </svg>

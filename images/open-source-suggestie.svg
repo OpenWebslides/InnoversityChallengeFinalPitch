@@ -1,18 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
   <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="860" height="400">
-  <style>
-  @supports (-webkit-appearance:none) {
-    #slide {
-      transform-origin: center center;
-      animation: rotate 2.5s ease-in-out infinite alternate;
-    }
-  }
-  @keyframes rotate {
-    from { transform: rotate(-2deg); }
-    to   { transform: rotate( 2deg); }
-  }
-  </style>
 	<g id="slide">
 		<g>
 			<rect x="299" y="36.73" fill="#FFFFFF" width="169.27" height="106.17"/>
@@ -54,7 +42,7 @@
     </g>
 	</g>
 
-	<text transform="matrix(1 0 0 1 336.291 22.334)" style="font-family: Arial; font-size: 24px; font-weight: bold">suggestie</text>
+	<text transform="matrix(1 0 0 1 332.291 22.334)" style="font-family: Arial; font-size: 24px; font-weight: bold">suggestie</text>
 	<text transform="matrix(1 0 0 1 173.0371 33.9248)" fill="#6F6F6E" font-family="'Arial'" font-size="18">opmerking</text>
 	<text transform="matrix(1 0 0 1 165.0034 56.1992)" fill="#6F6F6E" font-family="'Arial'" font-size="18">aanpassing</text>
 	<text transform="matrix(1 0 0 1 169.0029 77.8008)" fill="#6F6F6E" font-family="'Arial'" font-size="18">toevoeging</text>

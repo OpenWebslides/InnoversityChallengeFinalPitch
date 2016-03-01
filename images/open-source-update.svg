@@ -1,18 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
 <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="860" height="400">
-  <style>
-  @supports (-webkit-appearance:none) {
-    #slide {
-      transform-origin: center center;
-      animation: rotate 2.5s ease-in-out infinite alternate;
-    }
-  }
-  @keyframes rotate {
-    from { transform: rotate(-2deg); }
-    to   { transform: rotate( 2deg); }
-  }
-  </style>
 	<g id="slide">
 		<g>
 			<rect x="646.88" y="146.29" fill="#FFFFFF" width="169.27" height="106.17"/>
