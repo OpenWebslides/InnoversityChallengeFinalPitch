@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" width="1024" height="400">
+<style> text { font-family: Arial; font-weight: bold; } </style>
+<path fill="#1A4175" d="M-87.99,200C-87.99,92.1,618,18,1023.97,0l0.06,398.85C551,379-88.05,312.33-88.05,199.25"/>
+<path fill="#FBA800" d="M50.31,201.81c0-58.92,47.76-106.69,106.68-106.69c58.92,0,106.68,47.77,106.68,106.69c0,58.92-47.76,106.69-106.68,106.69C98.07,308.5,50.31,260.73,50.31,201.81z"/>
+<circle fill="#FBA800" cx="780.09" cy="199.92" r="184.92"/>
+<path fill="#FBA800" d="M579.2,201.42c0,82.72-67.06,149.78-149.78,149.78c-82.72,0-149.78-67.06-149.78-149.78c0-82.72,67.06-149.79,149.78-149.79C512.13,51.64,579.2,118.7,579.2,201.42z"/>
+<text transform="matrix(1 0 0 1 73.0454 175.5747)"><tspan x="0" y="0" fill="#FFFFFF" font-size="36">studenten </tspan><tspan x="69.4" y="36" fill="#FFFFFF" font-size="36">&amp; </tspan><tspan x="5.54" y="72" fill="#FFFFFF" font-size="36">docenten</tspan></text>
+<text transform="matrix(1 0 0 1 336.5615 171.5747)" fill="#FFFFFF" font-size="42" letter-spacing="-1">COCOON</text>
+<text transform="matrix(1 0 0 1 349.7124 222.5742)"><tspan x="0" y="0" fill="#FFFFFF" font-size="32">onderwijs- </tspan><tspan x="-41.17" y="36" fill="#FFFFFF" font-size="32">innovatieproject</tspan></text>
+<text transform="matrix(1 0 0 1 658.4395 137.5747)"><tspan x="0" y="0" fill="#FFFFFF" font-size="48" letter-spacing="-1">Innoversity </tspan><tspan x="12.15" y="48" fill="#FFFFFF" font-size="48" letter-spacing="-1">Challenge</tspan></text>
+<text transform="matrix(1 0 0 1 710.0527 245.5742)"><tspan x="0" y="0" fill="#FFFFFF" style="font-style: italic; font-weight: normal" font-size="36">opleiding </tspan><tspan x="-30.73" y="42" fill="#FFFFFF" style="font-style: italic; font-weight: normal" font-size="36">infrastructuur </tspan><tspan x="1.58" y="84" fill="#FFFFFF" style="font-style: italic; font-weight: normal" font-size="36">promotie</tspan></text>
+</svg>
