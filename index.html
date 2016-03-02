@@ -358,23 +358,14 @@
 
   <div class="slide" id="netwerk">
     <h2>Open Webslides Netwerk</h2>
-    <figure>
-      <img src="images/Network1.png">
-    </figure>
-  </div>
-
-  <div class="slide" id="mogelijkheden">
-    <style>
-      video { display: none; }
-      @supports (-webkit-appearance:none) {
-        video { display: inline; }
-        iframe.video { display: none; }
-      }
-    </style>
-    <video controls style="height: 430px; margin: 10px 0 0 115px;">
-      <source src="images/peter-hinssen.mp4#t=0.4,8.5" type="video/mp4">
-    </video>
-    <iframe class="video" style="width: 600px; height: 380px; margin: 20px 0 0 130px;" src="https://www.youtube.com/embed/1dos0xzDLVA?version=3&amp;rel=0&amp;controls=2" frameborder="0" allowfullscreen></iframe>
+    <div class="wrapper">
+      <div class="zoom image">
+        <img src="images/Network1.jpg">
+        <video>
+          <source src="images/peter-hinssen.mp4#t=0.4,8.5" type="video/mp4">
+        </video>
+      </div>
+    </div>
   </div>
 
   <div class="slide" id="contingency">
@@ -418,7 +409,10 @@
   <script src="scripts/jquery.js"></script>
   <script src="scripts/edit.js"></script>
   <script>
-    $('video').click(function () { this.paused ? this.play() : this.pause(); });
+    $('video').click(function () { this.paused ? this.play() : this.pause(); })
+              .on('play', function () { $(this).addClass('playing'); })
+              .on('pause stop', function () { $(this).removeClass('playing'); this.currentTime = 0.4; });
+    $('.zoom').on('click stop', function () { $(this).removeClass('zoom'); });
   </script>
 </body>
 </html>
