@@ -397,7 +397,43 @@
 
   <div class="slide" id="toekomst">
     <h2>Onderwijs voor de toekomst</h2>
-    <img src="images/toekomst.svg" alt="" style="margin-left: -90px">
+    <svg version="1.1" xmlns="http://www.w3.org/2000/svg" width="1024" height="400" style="margin-left: -90px">
+      <style>
+        #toekomst text { font-family: Arial; font-weight: bold; fill: white; }
+
+        @supports (-webkit-appearance:none) {
+          #toekomst * {
+            transform-origin: center center;
+            transition: transform .5s ease-out;
+          }
+          #toekomst path {
+            transform: scale(1, 0.001);
+          }
+          #toekomst g.next {
+            transition: transform 1s ease-out;
+            transform: translate(1000px, 0) rotate(359deg) scale(2.2);
+          }
+          #toekomst.active path, #toekomst g.active {
+            transform: none;
+          }
+        }
+      </style>
+      <path fill="#1A4175" d="M-87.99,200C-87.99,92.1,618,18,1023.97,0l0.06,398.85C551,379-88.05,312.33-88.05,199.25"/>
+      <g class="next">
+        <circle fill="#FBA800" cx="156" cy="202" r="106"/>
+        <text transform="matrix(1 0 0 1  71 175)" font-size="36"><tspan x="0" y="0">studenten </tspan><tspan x="69.4" y="38">&amp; </tspan><tspan x="5.54" y="72">docenten</tspan></text>
+      </g>
+      <g class="next">
+        <circle fill="#FBA800" cx="429" cy="202" r="150"/>
+        <text transform="matrix(1 0 0 1 335 171)" font-size="42" letter-spacing="-1">COCOON</text>
+        <text transform="matrix(1 0 0 1 358 222)" style="font-style: italic; font-weight: normal" font-size="32"><tspan x="0" y="0">onderwijs- </tspan><tspan x="-41.17" y="36">innovatieproject</tspan></text>
+      </g>
+      <g class="next">
+        <circle fill="#FBA800" cx="782" cy="200" r="184"/>
+        <text transform="matrix(1 0 0 1 700 137)" font-size="56" letter-spacing="-1">UGent</text>
+        <text transform="matrix(1 0 0 1 710 210)" style="font-style: italic; font-weight: normal" font-size="36"><tspan x="0" y="0">opleiding </tspan><tspan x="-30.73" y="50">infrastructuur </tspan><tspan x="1.58" y="100">promotie</tspan></text>
+      </g>
+    </svg>
   </div>
 
   <div class="progress"></div>
