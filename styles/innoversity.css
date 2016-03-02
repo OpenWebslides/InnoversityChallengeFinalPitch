@@ -204,27 +204,25 @@ p.garcon {
   transition: transform 2s;
 }
 #netwerk .image.zoom {
-  transform: scale(3.3) translate(55px, 15px);
+  transform: scale(3.3) translate(5px, 18px);
 }
 #netwerk img {
   height: 440px;
-  margin: 0 10px 0 160px;
+  margin: 0 10px 0 80px;
   display: block;
 }
 #netwerk video {
   position: relative;
-  top: -286px;
-  left: 160px;
+  top: -283px;
+  left: 81px;
   height: 33px;
-  opacity: 0.85;
   transition: all .5s;
 }
 #netwerk video.playing {
   height: 400px;
   top: -420px;
-  left: 120px;
-  opacity: 1;
-  transition: all 4s;
+  left: 130px;
+  transition: all 3s;
 }
 
 section {
