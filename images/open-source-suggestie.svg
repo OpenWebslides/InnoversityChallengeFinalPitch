@@ -42,11 +42,11 @@
     </g>
 	</g>
 
-	<text transform="matrix(1 0 0 1 332.291 22.334)" style="font-family: Arial; font-size: 24px; font-weight: bold">suggestie</text>
-	<text transform="matrix(1 0 0 1 173.0371 33.9248)" fill="#6F6F6E" font-family="'Arial'" font-size="18">opmerking</text>
-	<text transform="matrix(1 0 0 1 165.0034 56.1992)" fill="#6F6F6E" font-family="'Arial'" font-size="18">aanpassing</text>
-	<text transform="matrix(1 0 0 1 169.0029 77.8008)" fill="#6F6F6E" font-family="'Arial'" font-size="18">toevoeging</text>
-  <line fill="none" stroke="#6F6F6E" stroke-width="2" stroke-linecap="round" stroke-miterlimit="10" x1="293.5" y1="52.2" x2="265" y2="28.33"/>
-  <line fill="none" stroke="#6F6F6E" stroke-width="2" stroke-linecap="round" stroke-miterlimit="10" x1="292.33" y1="52.2" x2="265" y2="51.33"/>
-  <line fill="none" stroke="#6F6F6E" stroke-width="2" stroke-linecap="round" stroke-miterlimit="10" x1="293.5" y1="52.2" x2="265" y2="74.24"/>
+	<text transform="matrix(1 0 0 1 316.291 22.334)" style="font-family: Arial; font-size: 24px; font-weight: bold">eigen versie</text>
+	<text transform="matrix(1 0 0 1 160.0371 29.9248)" fill="#6F6F6E" font-family="'Arial'" font-size="22">opmerking</text>
+	<text transform="matrix(1 0 0 1 150.0034 56.1992)" fill="#6F6F6E" font-family="'Arial'" font-size="22">aanpassing</text>
+	<text transform="matrix(1 0 0 1 154.0029 81.8008)" fill="#6F6F6E" font-family="'Arial'" font-size="22">toevoeging</text>
+  <line fill="none" stroke="#6F6F6E" stroke-width="2" stroke-linecap="round" stroke-miterlimit="10" x1="293.5" y1="51" x2="267" y2="26"/>
+  <line fill="none" stroke="#6F6F6E" stroke-width="2" stroke-linecap="round" stroke-miterlimit="10" x1="292.33" y1="51" x2="267" y2="51"/>
+  <line fill="none" stroke="#6F6F6E" stroke-width="2" stroke-linecap="round" stroke-miterlimit="10" x1="293.5" y1="51" x2="267" y2="76"/>
 </svg>
