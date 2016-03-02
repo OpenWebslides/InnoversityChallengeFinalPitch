@@ -196,6 +196,10 @@ p.garcon {
   text-align: center;
 }
 
+#open-betekenis h2 em {
+  -webkit-text-stroke: 1.5px;
+}
+
 #netwerk .wrapper {
   overflow: hidden;
   margin-top: -20px;
