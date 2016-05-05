@@ -266,3 +266,21 @@ section:nth-child(4n+2), section:nth-child(4n+3) {
 .tweet.next:not(.active) {
   display: none;
 }
+
+
+@media print {
+@page {
+  size:landscape;
+  margin: 25mm;
+  }
+
+.shower.full {
+  transform:none!important;
+  }
+
+.slide {
+  border: 0.05cm solid black;
+  page-break-inside:avoid;
+  page-break-after:always;
+  }
+}
